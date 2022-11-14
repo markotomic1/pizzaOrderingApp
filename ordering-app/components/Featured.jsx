@@ -22,7 +22,13 @@ const Featured = () => {
         style={{ left: 0 }}
         onClick={() => handleArrow("l")}
       >
-        <Image src='/img/arrowl.png' layout='fill' objectFit='contain' alt='' />
+        <Image
+          src='/img/arrowl.png'
+          layout='fill'
+          objectFit='contain'
+          alt=''
+          sizes=''
+        />
       </div>
       <div
         className={styles.wrapper}
@@ -30,7 +36,13 @@ const Featured = () => {
       >
         {images.map((img, i) => (
           <div className={styles.imgContainer} key={i}>
-            <Image src={img} layout='fill' objectFit='contain' alt='' />
+            <Image
+              src={img}
+              layout='fill'
+              objectFit='contain'
+              alt=''
+              sizes=''
+            />
           </div>
         ))}
       </div>
@@ -39,7 +51,13 @@ const Featured = () => {
         style={{ right: 0 }}
         onClick={() => handleArrow("r")}
       >
-        <Image src='/img/arrowr.png' layout='fill' objectFit='contain' alt='' />
+        <Image
+          src='/img/arrowr.png'
+          layout='fill'
+          objectFit='contain'
+          alt=''
+          sizes=''
+        />
       </div>
     </div>
   );
