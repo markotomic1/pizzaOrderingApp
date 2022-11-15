@@ -1,5 +1,4 @@
 import cookie from "cookie";
-import { StrictMode } from "react";
 
 const handler = (req, res) => {
   if (req.method === "POST") {
